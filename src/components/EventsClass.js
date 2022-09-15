@@ -1,9 +1,20 @@
 import React, { Component } from 'react'
 
 export class EventsClass extends Component {
-    clickHandler(){
-        console.log("Clicked the class button")
+
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       test: "is this working"
     }
+  }
+
+  clickHandler(){
+      console.log("Clicked the class button")
+      console.log('this', this)
+  }
+
   render() {
     return (
       <div>
