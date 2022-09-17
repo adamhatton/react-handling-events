@@ -6,6 +6,10 @@ import ConditionalRenderingFunctional from "./components/ConditionalRenderingFun
 import NestingComponents from "./components/NestingComponents";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import RenderingLists from "./components/RenderingLists";
+import Clock from "./components/Clock";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
+import LifeCyclesCDU from "./components/LifeCyclesCDU";
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
 
 function App() {
   return <div className="App">
@@ -15,7 +19,11 @@ function App() {
     {/* <ConditionalRenderingFunctional connected={true} /> */}
     {/* <NestingComponents /> */}
     {/* <MethodsAsPropsParent /> */}
-    <RenderingLists />
+    {/* <RenderingLists /> */}
+    {/* <Clock /> */}
+    {/* <LifeCyclesCDM /> */}
+    {/* <LifeCyclesCDU /> */}
+    <LifeCyclesCWU />
   </div>;
 }
 
