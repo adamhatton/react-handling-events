@@ -11,6 +11,10 @@ import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForm from "./components/ControlledForm";
+import UncontrolledForm from "./components/UncontrolledForm";
+import Searchbar from "./components/Searchbar";
+import ControlledFormHooks from "./components/ControlledFormHooks";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 function App() {
   return <div className="App">
@@ -25,7 +29,11 @@ function App() {
     {/* <LifeCyclesCDM /> */}
     {/* <LifeCyclesCDU /> */}
     {/* <LifeCyclesCWU /> */}
-    <ControlledForm />
+    {/* <ControlledForm /> */}
+    {/* <UncontrolledForm /> */}
+    {/* <Searchbar /> */}
+    {/* <ControlledFormHooks /> */}
+    <UseStateWithArrays />
   </div>;
 }
 
